@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Souls Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#">PRINCIPAL</a></li>
+                        <li><a href="#">MUCHOTEXTO</a></li>
+                        <li><a href="#">MINIGAMES</a></li>
+                        <li><a href="#">BARDO</a></li>
+                        <li><a href="about.html">ACERCA DE</a></li>
+                        <li style="float:right"><a class="active" href="login.html">LOG IN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Miembros del STAFF:</h2>
+        </div>
+        <div class="hall">
+            <div id="Angel" class="tabcontent">
+                <h1>Angel10</h1>
+                <p>Redactor del MUCHOTEXTO</p>
+            </div>
+            <div id="Leo" class="tabcontent">
+                <h1>Leo Churros</h1>
+                <p>Redactor de MINIGAMES</p>
+            </div>
+            <div id="Dongko" class="tabcontent">
+                <h1>Dongko</h1>
+                <p>Redactor de las HISTORIAS DEL BARDO</p>
+            </div>
+            <div id="Phobos" class="tabcontent">
+                <h1>Phobos</h1>
+                <p>Ayudante</p>
+            </div>
+            <button class="tablink" onclick="openMember('Angel', this, 'lightcoral')" id="defaultOpen">Angel10</button>
+            <button class="tablink" onclick="openMember('Leo', this, 'lightskyblue')">Leo Churros</button>
+            <button class="tablink" onclick="openMember('Dongko', this, 'lightgreen')">Dongko</button>
+            <button class="tablink" onclick="openMember('Phobos', this, 'lightgrey')">Phobos</button>
+        </div>
+        <div class="title">
+            <h2>Info de la web:</h2>
+        </div>
+        <div class="info">
+            <p>Esta es una pagina web sobre el servidor de rol BLUE SOULS, nos dedicamos a subir nuestras wbds y lo que se nos ocurra relacionado al servidor.</p>
+            <p>Las secciones que lo componen son:</p>
+            <p>EL MUCHOTEXTO: Un diario manejado por Angel, sin un tema claro.</p>
+            <p>MINIGAMES: La historia de Blue Souls contada en forma de Shonen generico, manejada por Leo.</p>
+            <p>LAS HISTORIAS DEL BARDO: Historias e ideas de campaña manejadas por Dongko.</p>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

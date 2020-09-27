@@ -1,0 +1,174 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    background: linear-gradient(#B9BDBD, #4C7070);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+h1 {
+  letter-spacing: 12px;
+}
+
+.title{
+  background-color: #555;
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin-top: 180px;
+  margin-left: 22.5%;
+  font-size: xx-large;
+  padding: 30px;
+  box-shadow: 0px 5px 0px black;
+}
+
+.container{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hall{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.list{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 5%;
+  margin-left: 15%;
+  overflow: hidden;
+  color: #EBF0F0;
+
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+#nav-bar li{
+    float: left;
+}
+  
+#nav-bar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: #4CAF50;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.circle{
+  background-color: white;
+  border-radius: 50%;
+  max-width: 450px;
+  min-height: 450px;
+  margin: auto;
+}
+
+.circle img{
+  max-width: 250px;
+  min-height: 250px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.task{
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-roll{
+  text-align: center;
+  font-size: xx-large;
+  align-items: center;
+}
+
+.button-roll button{
+  font-size: xx-large;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #111;
+  color: #EBF0F0;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.button-roll button:hover{
+  background-color: #333;
+}
+
+.tablink {
+  background-color: #333;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #111;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#Angel {background-color:lightcoral; width: 71.4%;}
+#Leo {background-color:lightskyblue; width: 71.4%}
+#Dongko {background-color:lightgreen; width: 71.4%}
+#Phobos {background-color:lightgrey; width: 71.4%}
+
+.name ul{
+  list-style-type: none;
+}
+
+.info{
+  font-size: large;
+  font-weight: bold;
+  background-color: #555;
+  color: white;
+  width: 550px;
+  margin-top: 75px;
+  margin-bottom: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-shadow: 0px 10px 0px black;
+  text-align: center;
+}
