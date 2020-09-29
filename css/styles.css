@@ -104,6 +104,11 @@ h1 {
   font-weight: bold;
 }
 
+.article h4{
+  font-size: larger;
+  font-weight: bold;
+}
+
 .button-roll{
   text-align: center;
   font-size: xx-large;
